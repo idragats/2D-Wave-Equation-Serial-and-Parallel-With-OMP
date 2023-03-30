@@ -1,8 +1,8 @@
 /*************************************************
-*  Dragatsikas Ioannis                           *
+*            Dragatsikas Ioannis                 *
 *             2D wave  equation                  *
 *    Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz    *
-*    physical Cores-2     Logical Cores-4        *
+*      physical Cores-2     Logical Cores-4      *
 *************************************************/
 
 #include<stdio.h>
@@ -14,7 +14,7 @@ int main(){
 	FILE *time5;
 	FILE *time10;
 	FILE *time20;
-	int Nx=40,Ny=40,Nt=640; // gia eustatheia tou sisthmatos dt=h^2/2*ó, ó=1cm^2/sec, Nt=T/dt
+	int Nx=40,Ny=40,Nt=640; // for a stable system dt=h^2/2*ó, ó=1cm^2/sec, Nt=T/dt
 	
 	double **U=(double**)malloc(Nx*sizeof(double*));
 	double **UN=(double**)malloc(Nx*sizeof(double*));
