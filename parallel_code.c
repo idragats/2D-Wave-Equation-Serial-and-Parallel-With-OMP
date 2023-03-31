@@ -1,13 +1,3 @@
-/*************************************************
-*            Dragatsikas Ioannis                 *
-*               Parallel code                    *
-*             2D wave equation                   * 
-*  Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz      *
-*    physical Cores-2     Logical Cores-4        * 
-*************************************************/
-
-
-
 #include<stdio.h>
 #include<stdlib.h>
 #include <math.h>
